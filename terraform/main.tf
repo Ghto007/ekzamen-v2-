@@ -60,8 +60,8 @@ resource "aws_instance" "web_instance" {
   sudo groupadd docker
   sudo usermod -aG docker $USER
   newgrp docker
-  docker pull  ghto007/aws:latest
-  docker run -it ghto007/aws:latest
+  docker pull  ghto007/ekz:latest
+  docker run -it ghto007/ekz:latest
 
   EOF
 
